@@ -9,6 +9,9 @@ namespace BuyPizza.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long OrderItemToppingID { get; set; }
         [Required]
+        [ForeignKey("Topping")]
+        public long ToppingID { get; set; }
+        [Required]
         [ForeignKey("OrderItem")]
         public long OrderItemID { get; set; }
         [Required]
@@ -16,6 +19,7 @@ namespace BuyPizza.Models
         [Required]
         public DateTime CreatedDate { get; set; }
 
+        public virtual Topping Topping { get; set; }
         public virtual OrderItem OrderItem { get; set; }
     }
 }

@@ -20,5 +20,6 @@ namespace BuyPizza.Models
         public DateTime? UpdatedDate { get; set; }
 
         public virtual ICollection<ItemTopping> ItemToppings { get; set; }
+        public virtual ICollection<OrderItemTopping> OrderItemToppings { get; set; }
     }
 }

@@ -69,6 +69,12 @@ namespace BuyPizza.Models.dbContext
 
             modelBuilder.Entity<OrderItemTopping>(entity =>
             {
+                entity.Property(e => e.ToppingID).HasColumnName("ToppingID");
+                entity.HasOne(d => d.Topping)
+                    .WithMany(p => p.OrderItemToppings)
+                    .HasForeignKey(d => d.ToppingID)
+                    .OnDelete(DeleteBehavior.ClientSetNull);
+
                 entity.Property(e => e.OrderItemID).HasColumnName("OrderItemID");
                 entity.HasOne(d => d.OrderItem)
                     .WithMany(p => p.OrderItemToppings)

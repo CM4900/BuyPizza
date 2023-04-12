@@ -60,7 +60,7 @@ namespace BuyPizza.Migrations
                         new
                         {
                             ItemID = 1L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(5780),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(3669),
                             Description = "Pizza Cake",
                             Image = "PizzaCake.jpg",
                             Name = "Pizza Cake",
@@ -69,7 +69,7 @@ namespace BuyPizza.Migrations
                         new
                         {
                             ItemID = 2L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(5850),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(3706),
                             Description = "St. Louis-Style Pizza",
                             Image = "StLouisStylePizza.jpg",
                             Name = "St. Louis-Style Pizza",
@@ -78,7 +78,7 @@ namespace BuyPizza.Migrations
                         new
                         {
                             ItemID = 3L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(5887),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(3722),
                             Description = "Pizza ortolana",
                             Image = "Pizzaortolana.jpg",
                             Name = "Pizza ortolana",
@@ -87,7 +87,7 @@ namespace BuyPizza.Migrations
                         new
                         {
                             ItemID = 4L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(5921),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(3737),
                             Description = "Pizza alla pala",
                             Image = "Pizzaallapala.jpg",
                             Name = "Pizza alla pala",
@@ -96,7 +96,7 @@ namespace BuyPizza.Migrations
                         new
                         {
                             ItemID = 5L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(5957),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(3751),
                             Description = "Pizza pesto Genovese",
                             Image = "PizzapestoGenovese.jpg",
                             Name = "Pizza pesto Genovese",
@@ -105,7 +105,7 @@ namespace BuyPizza.Migrations
                         new
                         {
                             ItemID = 6L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6002),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(3769),
                             Description = "Pizza rustica",
                             Image = "Pizzarustica.jpg",
                             Name = "Pizza rustica",
@@ -114,7 +114,7 @@ namespace BuyPizza.Migrations
                         new
                         {
                             ItemID = 7L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6040),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(3785),
                             Description = "Fugazzeta",
                             Image = "Fugazzeta.jpg",
                             Name = "Fugazzeta",
@@ -123,7 +123,7 @@ namespace BuyPizza.Migrations
                         new
                         {
                             ItemID = 8L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6072),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(3799),
                             Description = "Pizza e fichi",
                             Image = "Pizzaefichi.jpg",
                             Name = "Pizza e fichi",
@@ -132,7 +132,7 @@ namespace BuyPizza.Migrations
                         new
                         {
                             ItemID = 9L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6104),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(3813),
                             Description = "Apizza",
                             Image = "Apizza.jpg",
                             Name = "Apizza",
@@ -141,7 +141,7 @@ namespace BuyPizza.Migrations
                         new
                         {
                             ItemID = 10L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6180),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(3922),
                             Description = "Pugliese Pizza",
                             Image = "PugliesePizza.jpg",
                             Name = "Pugliese Pizza",
@@ -150,7 +150,7 @@ namespace BuyPizza.Migrations
                         new
                         {
                             ItemID = 11L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6213),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(3943),
                             Description = "Tomato Pie",
                             Image = "TomatoPie.jpg",
                             Name = "Tomato Pie",
@@ -192,210 +192,210 @@ namespace BuyPizza.Migrations
                         new
                         {
                             ItemToppingID = 1L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6509),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4068),
                             ItemID = 1L,
                             ToppingID = 1L
                         },
                         new
                         {
                             ItemToppingID = 2L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6552),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4087),
                             ItemID = 1L,
                             ToppingID = 3L
                         },
                         new
                         {
                             ItemToppingID = 3L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6584),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4101),
                             ItemID = 2L,
                             ToppingID = 5L
                         },
                         new
                         {
                             ItemToppingID = 4L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6619),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4114),
                             ItemID = 2L,
                             ToppingID = 2L
                         },
                         new
                         {
                             ItemToppingID = 5L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6655),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4127),
                             ItemID = 3L,
                             ToppingID = 4L
                         },
                         new
                         {
                             ItemToppingID = 6L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6697),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4141),
                             ItemID = 3L,
                             ToppingID = 6L
                         },
                         new
                         {
                             ItemToppingID = 7L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6735),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4154),
                             ItemID = 4L,
                             ToppingID = 1L
                         },
                         new
                         {
                             ItemToppingID = 8L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6764),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4167),
                             ItemID = 4L,
                             ToppingID = 3L
                         },
                         new
                         {
                             ItemToppingID = 9L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6792),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4179),
                             ItemID = 5L,
                             ToppingID = 5L
                         },
                         new
                         {
                             ItemToppingID = 10L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6824),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4193),
                             ItemID = 5L,
                             ToppingID = 2L
                         },
                         new
                         {
                             ItemToppingID = 11L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6854),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4205),
                             ItemID = 6L,
                             ToppingID = 4L
                         },
                         new
                         {
                             ItemToppingID = 12L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6892),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4219),
                             ItemID = 6L,
                             ToppingID = 6L
                         },
                         new
                         {
                             ItemToppingID = 13L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6924),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4231),
                             ItemID = 7L,
                             ToppingID = 1L
                         },
                         new
                         {
                             ItemToppingID = 14L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6959),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4244),
                             ItemID = 7L,
                             ToppingID = 3L
                         },
                         new
                         {
                             ItemToppingID = 15L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6996),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4256),
                             ItemID = 7L,
                             ToppingID = 5L
                         },
                         new
                         {
                             ItemToppingID = 16L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(7038),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4270),
                             ItemID = 8L,
                             ToppingID = 2L
                         },
                         new
                         {
                             ItemToppingID = 17L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(7102),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4283),
                             ItemID = 8L,
                             ToppingID = 4L
                         },
                         new
                         {
                             ItemToppingID = 18L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(7151),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4377),
                             ItemID = 9L,
                             ToppingID = 6L
                         },
                         new
                         {
                             ItemToppingID = 19L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(7189),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4396),
                             ItemID = 9L,
                             ToppingID = 1L
                         },
                         new
                         {
                             ItemToppingID = 20L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(7226),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4410),
                             ItemID = 9L,
                             ToppingID = 3L
                         },
                         new
                         {
                             ItemToppingID = 21L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(7263),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4423),
                             ItemID = 10L,
                             ToppingID = 5L
                         },
                         new
                         {
                             ItemToppingID = 22L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(7300),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4436),
                             ItemID = 10L,
                             ToppingID = 2L
                         },
                         new
                         {
                             ItemToppingID = 23L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(7338),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4448),
                             ItemID = 11L,
                             ToppingID = 4L
                         },
                         new
                         {
                             ItemToppingID = 24L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(7374),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4461),
                             ItemID = 11L,
                             ToppingID = 6L
                         },
                         new
                         {
                             ItemToppingID = 25L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(7408),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4474),
                             ItemID = 11L,
                             ToppingID = 1L
                         },
                         new
                         {
                             ItemToppingID = 26L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(7445),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4487),
                             ItemID = 11L,
                             ToppingID = 3L
                         },
                         new
                         {
                             ItemToppingID = 27L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(7481),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4499),
                             ItemID = 8L,
                             ToppingID = 5L
                         },
                         new
                         {
                             ItemToppingID = 28L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(7518),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4512),
                             ItemID = 9L,
                             ToppingID = 2L
                         },
                         new
                         {
                             ItemToppingID = 29L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(7554),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4524),
                             ItemID = 8L,
                             ToppingID = 4L
                         },
                         new
                         {
                             ItemToppingID = 30L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(7588),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4537),
                             ItemID = 7L,
                             ToppingID = 6L
                         });
@@ -475,9 +475,15 @@ namespace BuyPizza.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<long>("ToppingID")
+                        .HasColumnType("bigint")
+                        .HasColumnName("ToppingID");
+
                     b.HasKey("OrderItemToppingID");
 
                     b.HasIndex("OrderItemID");
+
+                    b.HasIndex("ToppingID");
 
                     b.ToTable("OrderItemTopping");
                 });
@@ -516,7 +522,7 @@ namespace BuyPizza.Migrations
                         new
                         {
                             ToppingID = 1L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6260),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(3962),
                             Image = "RoastedTomatoes.jpg",
                             Name = "Roasted Tomatoes",
                             Rate = 49.0
@@ -524,7 +530,7 @@ namespace BuyPizza.Migrations
                         new
                         {
                             ToppingID = 2L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6313),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(3986),
                             Image = "RoastedRedPeppers.jpg",
                             Name = "Roasted Red Peppers",
                             Rate = 39.0
@@ -532,7 +538,7 @@ namespace BuyPizza.Migrations
                         new
                         {
                             ToppingID = 3L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6352),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4002),
                             Image = "RoastedArtichokes.jpg",
                             Name = "Roasted Artichokes",
                             Rate = 59.0
@@ -540,7 +546,7 @@ namespace BuyPizza.Migrations
                         new
                         {
                             ToppingID = 4L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6390),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4019),
                             Image = "RoastedButternutSquash.jpg",
                             Name = "Roasted Butternut Squash",
                             Rate = 89.0
@@ -548,7 +554,7 @@ namespace BuyPizza.Migrations
                         new
                         {
                             ToppingID = 5L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6426),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4034),
                             Image = "RoastedBroccoli.jpg",
                             Name = "Roasted Broccoli",
                             Rate = 49.0
@@ -556,7 +562,7 @@ namespace BuyPizza.Migrations
                         new
                         {
                             ToppingID = 6L,
-                            CreatedDate = new DateTime(2023, 4, 11, 19, 27, 5, 883, DateTimeKind.Utc).AddTicks(6461),
+                            CreatedDate = new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4051),
                             Image = "RoastedFennel.jpg",
                             Name = "Roasted Fennel",
                             Rate = 89.0
@@ -604,7 +610,14 @@ namespace BuyPizza.Migrations
                         .HasForeignKey("OrderItemID")
                         .IsRequired();
 
+                    b.HasOne("BuyPizza.Models.Topping", "Topping")
+                        .WithMany("OrderItemToppings")
+                        .HasForeignKey("ToppingID")
+                        .IsRequired();
+
                     b.Navigation("OrderItem");
+
+                    b.Navigation("Topping");
                 });
 
             modelBuilder.Entity("BuyPizza.Models.Item", b =>
@@ -627,6 +640,8 @@ namespace BuyPizza.Migrations
             modelBuilder.Entity("BuyPizza.Models.Topping", b =>
                 {
                     b.Navigation("ItemToppings");
+
+                    b.Navigation("OrderItemToppings");
                 });
 #pragma warning restore 612, 618
         }
