@@ -16,7 +16,7 @@ namespace BuyPizza.Models
         [Required]
         public String Image { get; set; }
         [Required]
-        public Double Rate { get; set; }
+        public Decimal Rate { get; set; }
         [Required]
         public DateTime CreatedDate { get; set; }
         public DateTime? UpdatedDate { get; set; }

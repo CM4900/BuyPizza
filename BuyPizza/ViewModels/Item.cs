@@ -6,11 +6,11 @@
 
     public class ItemListModel
     {
-        public long ItemID { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
-        public String ImageBase { get; set; }
-        public Double Rate { get; set; }
+        public long itemID { get; set; }
+        public string name { get; set; }
+        public string description { get; set; }
+        public String imageBase { get; set; }
+        public Decimal rate { get; set; }
     }
     public class GetItemListModel
     {
@@ -23,14 +23,14 @@
 
     public class ItemToppingListModel
     {
-        public long ItemToppingID { get; set; }
-        public long ItemID { get; set; }
-        public long ToppingID { get; set; }
-        public string ItemName { get; set; }
-        public string ItemDescription { get; set; }
-        public string ToppingName { get; set; }
-        public String ImageBase { get; set; }
-        public Double Rate { get; set; }
+        public long itemToppingID { get; set; }
+        public long itemID { get; set; }
+        public long toppingID { get; set; }
+        public string itemName { get; set; }
+        public string itemDescription { get; set; }
+        public string toppingName { get; set; }
+        public String imageBase { get; set; }
+        public Decimal rate { get; set; }
     }
     public class GetItemToppingListModel
     {

@@ -4,7 +4,7 @@ namespace BuyPizza.DataControllers
 {
     public interface IItemObject
     {
-        GetItemListModel GetItemList();
+        GetItemListModel GetItemList(long itemID);
         GetItemToppingListModel GetItemToppingList(long itemID);
     }
 }

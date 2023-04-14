@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace BuyPizza.Controllers
 {
     [ApiController]
-    [Route("[controller]/[action]")]
+    [Route("api/[controller]/[action]")]
     public class ItemController : ControllerBase
     {
         private readonly ILogger<ItemController> _logger;
@@ -19,7 +19,7 @@ namespace BuyPizza.Controllers
         [HttpGet]
         public GetItemListModel GetPizzaItems()
         {
-            return _iItemObject.GetItemList();
+            return _iItemObject.GetItemList(0);
         }
 
         [HttpGet]

@@ -30,7 +30,7 @@ namespace BuyPizza.Models.dbContext
         {
             if (!optionsBuilder.IsConfigured)
             {
-                string staticConnString = "Server=DESKTOP-COVBKB0;Database=DBPizza;User Id=sa;Password=12345;Trusted_Connection=False;MultipleActiveResultSets=true;TrustServerCertificate=True;Encrypt=False";
+                string staticConnString = "Server=DESKTOP-COVBKB0;Database=DBPizza;User Id=sa;Password=*********;Trusted_Connection=False;MultipleActiveResultSets=true;TrustServerCertificate=True;Encrypt=False";
                 optionsBuilder.UseSqlServer(string.IsNullOrEmpty(_connectionString) ? staticConnString : _connectionString);
             }
         }

@@ -22,7 +22,7 @@ namespace BuyPizza.Migrations
                     Name = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Image = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Rate = table.Column<double>(type: "float", nullable: false),
+                    Rate = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdatedDate = table.Column<DateTime>(type: "datetime2", nullable: true)
                 },
@@ -54,7 +54,7 @@ namespace BuyPizza.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
                     Image = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Rate = table.Column<double>(type: "float", nullable: false),
+                    Rate = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdatedDate = table.Column<DateTime>(type: "datetime2", nullable: true)
                 },
@@ -147,17 +147,17 @@ namespace BuyPizza.Migrations
                 columns: new[] { "ItemID", "CreatedDate", "Description", "Image", "Name", "Rate", "UpdatedDate" },
                 values: new object[,]
                 {
-                    { 1L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(3669), "Pizza Cake", "PizzaCake.jpg", "Pizza Cake", 99.0, null },
-                    { 2L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(3706), "St. Louis-Style Pizza", "StLouisStylePizza.jpg", "St. Louis-Style Pizza", 199.0, null },
-                    { 3L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(3722), "Pizza ortolana", "Pizzaortolana.jpg", "Pizza ortolana", 299.0, null },
-                    { 4L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(3737), "Pizza alla pala", "Pizzaallapala.jpg", "Pizza alla pala", 149.0, null },
-                    { 5L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(3751), "Pizza pesto Genovese", "PizzapestoGenovese.jpg", "Pizza pesto Genovese", 249.0, null },
-                    { 6L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(3769), "Pizza rustica", "Pizzarustica.jpg", "Pizza rustica", 349.0, null },
-                    { 7L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(3785), "Fugazzeta", "Fugazzeta.jpg", "Fugazzeta", 399.0, null },
-                    { 8L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(3799), "Pizza e fichi", "Pizzaefichi.jpg", "Pizza e fichi", 449.0, null },
-                    { 9L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(3813), "Apizza", "Apizza.jpg", "Apizza", 229.0, null },
-                    { 10L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(3922), "Pugliese Pizza", "PugliesePizza.jpg", "Pugliese Pizza", 279.0, null },
-                    { 11L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(3943), "Tomato Pie", "TomatoPie.jpg", "Tomato Pie", 489.0, null }
+                    { 1L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(7863), "Pizza Cake", "PizzaCake.jpg", "Pizza Cake", 99m, null },
+                    { 2L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(7902), "St. Louis-Style Pizza", "StLouisStylePizza.jpg", "St. Louis-Style Pizza", 199m, null },
+                    { 3L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(7917), "Pizza ortolana", "Pizzaortolana.jpg", "Pizza ortolana", 299m, null },
+                    { 4L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(7931), "Pizza alla pala", "Pizzaallapala.jpg", "Pizza alla pala", 149m, null },
+                    { 5L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(7959), "Pizza pesto Genovese", "PizzapestoGenovese.jpg", "Pizza pesto Genovese", 249m, null },
+                    { 6L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(7981), "Pizza rustica", "Pizzarustica.jpg", "Pizza rustica", 349m, null },
+                    { 7L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(7996), "Fugazzeta", "Fugazzeta.jpg", "Fugazzeta", 399m, null },
+                    { 8L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8010), "Pizza e fichi", "Pizzaefichi.jpg", "Pizza e fichi", 449m, null },
+                    { 9L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8023), "Apizza", "Apizza.jpg", "Apizza", 229m, null },
+                    { 10L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8039), "Pugliese Pizza", "PugliesePizza.jpg", "Pugliese Pizza", 279m, null },
+                    { 11L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8052), "Tomato Pie", "TomatoPie.jpg", "Tomato Pie", 489m, null }
                 });
 
             migrationBuilder.InsertData(
@@ -165,12 +165,12 @@ namespace BuyPizza.Migrations
                 columns: new[] { "ToppingID", "CreatedDate", "Image", "Name", "Rate", "UpdatedDate" },
                 values: new object[,]
                 {
-                    { 1L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(3962), "RoastedTomatoes.jpg", "Roasted Tomatoes", 49.0, null },
-                    { 2L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(3986), "RoastedRedPeppers.jpg", "Roasted Red Peppers", 39.0, null },
-                    { 3L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4002), "RoastedArtichokes.jpg", "Roasted Artichokes", 59.0, null },
-                    { 4L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4019), "RoastedButternutSquash.jpg", "Roasted Butternut Squash", 89.0, null },
-                    { 5L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4034), "RoastedBroccoli.jpg", "Roasted Broccoli", 49.0, null },
-                    { 6L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4051), "RoastedFennel.jpg", "Roasted Fennel", 89.0, null }
+                    { 1L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8073), "RoastedTomatoes.jpg", "Roasted Tomatoes", 49m, null },
+                    { 2L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8095), "RoastedRedPeppers.jpg", "Roasted Red Peppers", 39m, null },
+                    { 3L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8110), "RoastedArtichokes.jpg", "Roasted Artichokes", 59m, null },
+                    { 4L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8124), "RoastedButternutSquash.jpg", "Roasted Butternut Squash", 89m, null },
+                    { 5L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8140), "RoastedBroccoli.jpg", "Roasted Broccoli", 49m, null },
+                    { 6L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8156), "RoastedFennel.jpg", "Roasted Fennel", 89m, null }
                 });
 
             migrationBuilder.InsertData(
@@ -178,36 +178,36 @@ namespace BuyPizza.Migrations
                 columns: new[] { "ItemToppingID", "CreatedDate", "ItemID", "ToppingID", "UpdatedDate" },
                 values: new object[,]
                 {
-                    { 1L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4068), 1L, 1L, null },
-                    { 2L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4087), 1L, 3L, null },
-                    { 3L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4101), 2L, 5L, null },
-                    { 4L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4114), 2L, 2L, null },
-                    { 5L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4127), 3L, 4L, null },
-                    { 6L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4141), 3L, 6L, null },
-                    { 7L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4154), 4L, 1L, null },
-                    { 8L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4167), 4L, 3L, null },
-                    { 9L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4179), 5L, 5L, null },
-                    { 10L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4193), 5L, 2L, null },
-                    { 11L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4205), 6L, 4L, null },
-                    { 12L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4219), 6L, 6L, null },
-                    { 13L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4231), 7L, 1L, null },
-                    { 14L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4244), 7L, 3L, null },
-                    { 15L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4256), 7L, 5L, null },
-                    { 16L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4270), 8L, 2L, null },
-                    { 17L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4283), 8L, 4L, null },
-                    { 18L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4377), 9L, 6L, null },
-                    { 19L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4396), 9L, 1L, null },
-                    { 20L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4410), 9L, 3L, null },
-                    { 21L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4423), 10L, 5L, null },
-                    { 22L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4436), 10L, 2L, null },
-                    { 23L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4448), 11L, 4L, null },
-                    { 24L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4461), 11L, 6L, null },
-                    { 25L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4474), 11L, 1L, null },
-                    { 26L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4487), 11L, 3L, null },
-                    { 27L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4499), 8L, 5L, null },
-                    { 28L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4512), 9L, 2L, null },
-                    { 29L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4524), 8L, 4L, null },
-                    { 30L, new DateTime(2023, 4, 12, 20, 34, 44, 70, DateTimeKind.Utc).AddTicks(4537), 7L, 6L, null }
+                    { 1L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8171), 1L, 1L, null },
+                    { 2L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8187), 1L, 3L, null },
+                    { 3L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8200), 2L, 5L, null },
+                    { 4L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8212), 2L, 2L, null },
+                    { 5L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8225), 3L, 4L, null },
+                    { 6L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8238), 3L, 6L, null },
+                    { 7L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8252), 4L, 1L, null },
+                    { 8L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8264), 4L, 3L, null },
+                    { 9L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8277), 5L, 5L, null },
+                    { 10L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8290), 5L, 2L, null },
+                    { 11L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8303), 6L, 4L, null },
+                    { 12L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8325), 6L, 6L, null },
+                    { 13L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8343), 7L, 1L, null },
+                    { 14L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8356), 7L, 3L, null },
+                    { 15L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8369), 7L, 5L, null },
+                    { 16L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8383), 8L, 2L, null },
+                    { 17L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8396), 8L, 4L, null },
+                    { 18L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8410), 9L, 6L, null },
+                    { 19L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8423), 9L, 1L, null },
+                    { 20L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8436), 9L, 3L, null },
+                    { 21L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8450), 10L, 5L, null },
+                    { 22L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8463), 10L, 2L, null },
+                    { 23L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8476), 11L, 4L, null },
+                    { 24L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8489), 11L, 6L, null },
+                    { 25L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8502), 11L, 1L, null },
+                    { 26L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8515), 11L, 3L, null },
+                    { 27L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8528), 8L, 5L, null },
+                    { 28L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8541), 9L, 2L, null },
+                    { 29L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8554), 8L, 4L, null },
+                    { 30L, new DateTime(2023, 4, 14, 13, 52, 13, 19, DateTimeKind.Utc).AddTicks(8566), 7L, 6L, null }
                 });
 
             migrationBuilder.CreateIndex(
